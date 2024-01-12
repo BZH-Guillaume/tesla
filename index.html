@@ -5,9 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
     <title>Tesla, le futur de l'automobile</title>
 </head>
 <body>
+    <header>
+    
+        <nav class="navbar bg-dark navbar-dark p-3">
+        <div class="container">
+            <img src="https://believemy.com/uploads/2f3811b9174e35a2d77902ffd36a9a37_4dfb82dd429edb6a11a81ff74e9abfc4.png" style="height: 30px" class="mx-auto d-block"/>
+        </div>
+        </nav>
+    </header>
+    
+    <div class="text-white py-5" style="background: center/cover url('https://believemy.com/uploads/126d05180ddf6f2ea67c8b669855bf89_e45c0e92710b43b3b938ed8fc4938f71.png')">
+        <div id="banner" class="container">
+        <h1 class="display-4">Bienvenue.</h1>
+        <p>Le site Tesla vous permet de commander vos fusées et vos voitures, même lorsque vous êtes dans votre canapé.      
+            <span class="badge bg-success">Un conseiller est en ligne.</span></p>
+        </div>
+    </div>
+    
+    <section>
+        <div class="container mt-5">
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 43%">
+            </div>
+        </div>
+
+        <div class="alert alert-primary mt-4">
+            Bienvenue sur Tesla. Ce site est en maintenance.
+        <hr>
+            <div class="btn-group w-100">
+                <a class="btn btn-danger" href="#">Suivre les avancements</a>
+                <a class="btn btn-success" href="#">Nous contacter</a>
+            </div>
+        </div>
+        
+        <nav>
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+            <li class="breadcrumb-item"><a href="">Maintenance</a></li>
+        </ul>
+        </nav>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+        
+        <div class="card mb-3 bg-secondary text-white">
+            <img src="https://believemy.com/uploads/c7fe8837368024dc01e1845337f167e9_18fb807dabb97a3e4f920d1b0c9176b1.png" alt="..." class="card-img-top">
+            <div class="card-body">
+                <h5>Nouveautés</h5>
+                <p class="card-text">Découvrez les dernières nouveautés de Tesla. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur maxime iusto placeat ad exercitationem nulla optio. Vel alias voluptates fuga, autem nostrum numquam delectus architecto illo suscipit eaque omnis? Recusandae?</p>
+            </div>
+        </div>
+
+        <div class="card mb-3 bg-secondary text-white">
+            <img src="https://believemy.com/uploads/c7fe8837368024dc01e1845337f167e9_18fb807dabb97a3e4f920d1b0c9176b1.png" alt="..." class="card-img-top">
+            <div class="card-header">
+                Information
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Nouveautés</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima perferendis tempore fugit illo commodi molestias debitis neque fuga, esse iste? Excepturi, voluptatem quisquam? Facere ullam suscipit deserunt magnam commodi sequi!</p>
+            </div>
+        </div>   
+        </div>     
+    </section>
+
+    <section class="bg-dark text-white p-5">
+        <div class="mx-auto w-75">
+        <h2>Contactez-nous</h2>
+        <form>
+            <p>
+              <label for="email">Adresse email</label>
+              <input type="email" class="form-control" placeholder="Entrez votre adresse email" name="email" id="email">  
+              <small class="text-muted text-light">Votre email ne sera pas partagé</small>
+            </p>
+            <p>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" class="form-control" rows="3"></textarea>
+            </p>
+            <button type="submit" class="btn btn-outline-light mt-3">Soumettre</button>
+        </form>
+        </div>
+    </section>
+    
+   <footer class="bg-secondary text-white p-3 text-center">
+        <div class="container">
+            © Tesla
+        </div>
+
+   </footer>
     
 </body>
 </html>
